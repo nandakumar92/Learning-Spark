@@ -10,3 +10,5 @@ DataFrames - Spark dataframes are like python dataframes or spreadsheets except 
 
 Transformations - Spark transformations are the way Dataframes are modified and transformed.
 
+Actions - Transformations build up logical plan. To trigger the computation, we run an action. An action instructs Spark to compute a result from a series of transformations.
+
